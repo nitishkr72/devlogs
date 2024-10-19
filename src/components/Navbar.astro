@@ -1,0 +1,29 @@
+---
+type HEADER_ITEM = {
+	title: string;
+	link?: string;
+};
+
+const list_btn_style = "m-3 select-none cursor-pointer hover:text-[#ff4c60]";
+
+const header_item: HEADER_ITEM[] = [
+	{ title: "Home" },
+	{ title: "Blog" },
+	{ title: "Projects" },
+	{ title: "Contact" },
+	{ title: "Tutorials" },
+	{ title: "Me" },
+];
+---
+
+<nav class="w-fit mx-auto shadow-md border border-gray-50 rounded-sm">
+	<ul
+		class="list-none flex flex-row gap-2 text-base mx-4 font-medium text-[#4b4870]"
+	>
+		{
+			header_item.map((item) => {
+				return <li class={`${list_btn_style}`}>{item.title}</li>;
+			})
+		}
+	</ul>
+</nav>
