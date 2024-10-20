@@ -1,0 +1,44 @@
+---
+import {
+	INSTAGRAM_PNG,
+	FACEBOOK_PNG,
+	GITHUB_PNG,
+	LEETCODE_PNG,
+} from "../../icons";
+---
+
+<section class="grid grid-cols-3 items-center mb-6">
+	<div class="flex flex-row gap-6 items-center mr-auto">
+		<img
+			alt="instagram link"
+			src={`${INSTAGRAM_PNG}`}
+			class="cursor-pointer w-7 h-7"
+		/>
+		<img
+			alt="facebook link"
+			src={`${FACEBOOK_PNG}`}
+			class="cursor-pointer w-7 h-7"
+		/>
+		<img
+			alt="github link"
+			src={`${GITHUB_PNG}`}
+			class="cursor-pointer w-7 h-w-7"
+		/>
+		<img
+			alt="leetcode link"
+			src={`${LEETCODE_PNG}`}
+			class="cursor-pointer w-7 h-w-7"
+		/>
+	</div>
+
+	<div class="mx-auto text-6xl leading-tight font-bold">
+		<img src="/devlogs.png" class="h-16" />
+	</div>
+	<Fragment>
+		<div
+			class="bg-[#ff4c60] rounded-full p-1 items-center cursor-pointer w-fit ml-auto"
+		>
+			<img src="/search.svg" class="w-6 h-6" />
+		</div></Fragment
+	>
+</section>

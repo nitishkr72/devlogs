@@ -1,6 +1,5 @@
 ---
-import Navbar from "../components/Navbar.astro";
-import TopHeader from "../components/TopHeader.astro";
+import Header from "../components/header/Header.astro";
 
 const { title } = Astro.props;
 ---
@@ -23,11 +22,7 @@ const { title } = Astro.props;
 	</head>
 	<body class="w-full bg-[#f9f9fe]">
 		<Fragment>
-			<header class="w-[80rem] h-fit mx-auto pt-16">
-				<TopHeader />
-				<Navbar />
-			</header>
-
+			<Header />
 			<slot />
 		</Fragment>
 	</body>
