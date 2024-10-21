@@ -5,3 +5,5 @@ export const FACEBOOK_PNG =
 export const GITHUB_PNG =
 	"https://www.svgrepo.com/show/303615/github-icon-1-logo.svg";
 export const LEETCODE_PNG = "https://www.svgrepo.com/show/306328/leetcode.svg";
+export const LINKEDIN_PNG =
+	"https://cdn-icons-png.flaticon.com/512/3536/3536505.png";
